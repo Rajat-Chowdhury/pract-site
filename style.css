@@ -1,0 +1,46 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* cover */
+
+#cover{
+    background: #222 url('https://www.nationalgeographic.com/content/dam/travel/2019-digital/stargazing-sites/sedona-arizona.adapt.1900.1.jpg')  center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cover-caption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.container{
+    width: 100%;
+}
+
+
+.form-inline {
+
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+.form-group{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
