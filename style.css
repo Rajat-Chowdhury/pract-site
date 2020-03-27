@@ -3,11 +3,15 @@
     font-family: 'product sans';
 }
 
+
 html,body{
     height: 100%;
     width: 100%;
 }
 
+img{
+    max-width: 100%;
+}
 
 /* cover */
 
@@ -48,4 +52,37 @@ justify-content: center;
     padding-right: 2px;
 }
 
+.section-content{
+    padding:5rem 0 ;
 
+}
+
+#about{
+    background: url('https://www.si.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTY4MDA3ODYwMjkwMDA0MzUy/alex-morgan-tea-photoshoot-uswntjpg.jpg') center center no-repeat;
+
+    background-size: cover;
+}
+
+
+.about-text{
+    background: rgba(0, 0,0,0.8);
+    color: white;
+    padding: 2rem;
+}
+
+#main{
+    background: #222;
+    color: white;
+    font-size: .8rem;
+    padding:50rem 0;
+}
+
+
+.footer{
+    background: #222;
+    color: white;
+}
+
+.container{
+    padding-top: 5rem;
+}
